@@ -31,7 +31,7 @@ q1 = st.text_input('Enter question 1')
 q2 = st.text_input('Enter question 2')
 
 if st.button('Find'):
-    user_input = np.array([q1, q2])
+    user_input = [q1, q2]
 
     try:
         # Transform the user input using the loaded vectorizer
